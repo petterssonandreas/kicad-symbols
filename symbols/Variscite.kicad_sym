@@ -1,0 +1,7638 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "var-som-mx93"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -0.254 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VAR-SOM-MX93"
+			(at 0 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN200_1827341-4_TEC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "var-som-mx93_0_0"
+			(pin unspecified line
+				(at -127 52.07 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 49.53 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD0/UART3.RX///FLEXIO2.FLEXIO[10]/GPIO4.IO[10]/*/ETH0_MDI_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 46.99 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD1/UART3.CTS_B//LPTMR2.ALT1/FLEXIO2.FLEXIO[11]/GPIO4.IO[11]/*/ETH0_MDI_C_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 44.45 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 41.91 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD2///LPTMR2.ALT2/FLEXIO2.FLEXIO[12]/GPIO4.IO[12]/*/ETH0_MDI_D_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 39.37 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD3///LPTMR2.ALT3/FLEXIO2.FLEXIO[13]/GPIO4.IO[13]/*/ETH0_MDI_D_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 36.83 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 34.29 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RXC/ENET_QOS.RX_ER///FLEXIO2.FLEXIO[9]/GPIO4.IO[9]/*/ETH0_LED_LINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 31.75 0)
+				(length 2.54)
+				(name "SAI1.TX_DATA[0]/UART2.RTS_B/SPI1.SCK/UART1.DTR_B/CAN1.TX/GPIO1.IO[13]/CCMSRCGPCMIX.BOOT_MODE[3]/*/DMIC_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 29.21 0)
+				(length 2.54)
+				(name "UART2.RX/UART1.CTS_B/SPI2.SOUT/TPM1.CH2/SAI1.MCLK/GPIO1.IO[6]/*/DMIC_DATA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 26.67 0)
+				(length 2.54)
+				(name "GPIO2.IO[18]/SAI3.RX_BCLK/ISI.D[9]/LCDIF.D[14]/SPI5.PCS0/SPI4.PCS0/TPM5.CH2/FLEXIO1.FLEXIO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 24.13 0)
+				(length 2.54)
+				(name "GPIO2.IO[26]/USDHC3.DATA2/PDM.BIT_STREAM[1]/LCDIF.D[22]/TPM5.CH3/DAP.TDI/SPI8.PCS1/SAI3.TX_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 21.59 0)
+				(length 2.54)
+				(name "GPIO2.IO[21]/SAI3.TX_DATA[0]/PDM.CLK/LCDIF.D[17]/SPI5.SCK/SPI4.SCK/TPM4.CH1/SAI3.RX_BCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 19.05 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 16.51 0)
+				(length 2.54)
+				(name "ENET_QOS.MDIO/UART3.RIN_B/I3C2.SDA/USB1.OTG_PWR/FLEXIO2.FLEXIO[1]/GPIO4.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 13.97 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 11.43 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 8.89 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 6.35 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 3.81 0)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO2////FLEXIO1.FLEXIO[27]/GPIO3.IO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -3.81 0)
+				(length 2.54)
+				(name "BOOT_SEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -6.35 0)
+				(length 2.54)
+				(name "PDM.CLK/MQS1.LEFT///LPTMR1.ALT1/GPIO1.IO[8]/CAN1.TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -8.89 0)
+				(length 2.54)
+				(name "PDM.BIT_STREAM[0]/MQS1.RIGHT/SPI1.PCS1/TPM1.EXTCLK/LPTMR1.ALT2/GPIO1.IO[9]/CAN1.RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -11.43 0)
+				(length 2.54)
+				(name "GPIO2.IO[10]/SPI3.SOUT/ISI.D[4]/LCDIF.D[6]/TPM4.EXTCLK/UART7.CTS_B/I2C8.SDA/FLEXIO1.FLEXIO[10]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -13.97 0)
+				(length 2.54)
+				(name "DAP.TMS_SWDIO////FLEXIO2.FLEXIO[31]/GPIO3.IO[29]/UART5.RTS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -16.51 0)
+				(length 2.54)
+				(name "DAP.TDO_TRACESWO/MQS2.RIGHT//CAN2.RX/FLEXIO1.FLEXIO[31]/GPIO3.IO[31]/UART5.TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -19.05 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RD3/SPDIF1.OUT/SPDIF1.IN/MQS2.LEFT/FLEXIO2.FLEXIO[27]/GPIO4.IO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -21.59 0)
+				(length 2.54)
+				(name "ENET2.RGMII_TD2/INPUT=ENET2.TX_CLK_OUTPUT=CCMSRCGPCMIX.ENET_REF_CLK_ROOT/SAI2.RX_DATA[1]//FLEXIO2.FLEXIO[17]/GPIO4.IO[17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -24.13 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TXC/ENET_QOS.TX_ER///FLEXIO2.FLEXIO[7]/GPIO4.IO[7]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -26.67 0)
+				(length 2.54)
+				(name "USDHC2.CLK/ENET_QOS.1588_EVENT0_OUT/I3C2.SDA//FLEXIO1.FLEXIO[1]/GPIO3.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -29.21 0)
+				(length 2.54)
+				(name "USDHC2.DATA0/ENET2.1588_EVENT0_OUT/CAN2.TX//FLEXIO1.FLEXIO[3]/GPIO3.IO[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -31.75 0)
+				(length 2.54)
+				(name "USDHC2.CMD/ENET2.1588_EVENT0_IN/I3C2.PUR/I3C2.PUR_B/FLEXIO1.FLEXIO[2]/GPIO3.IO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -34.29 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -36.83 0)
+				(length 2.54)
+				(name "GPIO2.IO[25]/USDHC3.DATA1/CAN2.TX/LCDIF.D[21]/TPM4.CH3/DAP.TCLK_SWCLK/SPI7.PCS1/FLEXIO1.FLEXIO[25]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -39.37 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -41.91 0)
+				(length 2.54)
+				(name "PDM.BIT_STREAM[1]/M33.NMI/SPI2.PCS1/TPM2.EXTCLK/LPTMR1.ALT3/GPIO1.IO[10]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -44.45 0)
+				(length 2.54)
+				(name "ENET_QOS.MDC/UART3.DCB_B/I3C2.SCL/USB1.OTG_ID/FLEXIO2.FLEXIO[0]/GPIO4.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -46.99 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -49.53 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -52.07 0)
+				(length 2.54)
+				(name "USDHC2.CD_B/ENET_QOS.1588_EVENT0_IN/I3C2.SCL//FLEXIO1.FLEXIO[0]/GPIO3.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -54.61 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -57.15 0)
+				(length 2.54)
+				(name "USDHC3.DATA0/FLEXSPI.A_DATA[0]///FLEXIO1.FLEXIO[22]/GPIO3.IO[22]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -59.69 0)
+				(length 2.54)
+				(name "GPIO2.IO[17]/SAI3.MCLK/ISI.D[8]/LCDIF.D[13]/UART3.RTS_B/SPI4.PCS1/UART4.RTS_B/FLEXIO1.FLEXIO[17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -62.23 0)
+				(length 2.54)
+				(name "GPIO2.IO[23]/USDHC3.CMD/SPDIF1.OUT/LCDIF.D[19]/TPM6.CH1//I2C5.SCL/FLEXIO1.FLEXIO[23]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -64.77 0)
+				(length 2.54)
+				(name "I2C1.SDA/I3C1.SDA/UART1.RIN_B/TPM2.CH1//GPIO1.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -67.31 0)
+				(length 2.54)
+				(name "I2C1.SCL/I3C1.SCL/UART1.DCB_B/TPM2.CH0//GPIO1.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -69.85 0)
+				(length 2.54)
+				(name "USB1_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -72.39 0)
+				(length 2.54)
+				(name "ENET2.RGMII_TXC/ENET2.TX_ER/SAI2.TX_BCLK//FLEXIO2.FLEXIO[21]/GPIO4.IO[21]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -74.93 0)
+				(length 2.54)
+				(name "SYS_NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -77.47 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -80.01 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -82.55 0)
+				(length 2.54)
+				(name "USB2_VBUS_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -85.09 0)
+				(length 2.54)
+				(name "USB1_VBUS_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -87.63 0)
+				(length 2.54)
+				(name "USB2_DN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -90.17 0)
+				(length 2.54)
+				(name "USB2_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -92.71 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -95.25 0)
+				(length 2.54)
+				(name "USB1_DN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -97.79 0)
+				(length 2.54)
+				(name "USB1_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -100.33 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -102.87 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RX_CTL/UART4.DSR_B/SAI2.TX_DATA[0]//FLEXIO2.FLEXIO[22]/GPIO4.IO[22]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -105.41 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RD0/UART4.RX/SAI2.TX_DATA[2]//FLEXIO2.FLEXIO[24]/GPIO4.IO[24]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -107.95 0)
+				(length 2.54)
+				(name "GPIO2.IO[8]/SPI3.PCS0/ISI.D[2]/LCDIF.D[4]/TPM6.CH0/UART7.TX/I2C7.SDA/FLEXIO1.FLEXIO[8]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -110.49 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -113.03 0)
+				(length 2.54)
+				(name "WIFI_HOST_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -115.57 0)
+				(length 2.54)
+				(name "BT_DEV_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -118.11 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -120.65 0)
+				(length 2.54)
+				(name "BT_HOST_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -123.19 0)
+				(length 2.54)
+				(name "PMIC_NINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -125.73 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -128.27 0)
+				(length 2.54)
+				(name "BBSMMIX.PMIC_STBY_REQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -130.81 0)
+				(length 2.54)
+				(name "BBSMMIX.PMIC_ON_REQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -133.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -135.89 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "146"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -138.43 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "148"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -140.97 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "150"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -143.51 0)
+				(length 2.54)
+				(name "ANAMIX.CLKIN1/ANAMIX.ESD_DIODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "152"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -146.05 0)
+				(length 2.54)
+				(name "BBSMMIX.TAMPER0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "154"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -148.59 0)
+				(length 2.54)
+				(name "BBSMMIX.TAMPER1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "156"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -151.13 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "158"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -153.67 0)
+				(length 2.54)
+				(name "LVDS_TX1_N/*/DSI_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -156.21 0)
+				(length 2.54)
+				(name "LVDS_TX1_P/*/DSI_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "162"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -158.75 0)
+				(length 2.54)
+				(name "LVDS_TX2_N/*/DSI_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "164"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -161.29 0)
+				(length 2.54)
+				(name "LVDS_TX2_P/*/DSI_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "166"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -163.83 0)
+				(length 2.54)
+				(name "LVDS_CLK_N/*/DSI_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "168"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -166.37 0)
+				(length 2.54)
+				(name "LVDS_CLK_P/*/DSI_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "170"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -168.91 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "172"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -171.45 0)
+				(length 2.54)
+				(name "GPIO2.IO[7]/SPI3.PCS1/ISI.D[1]/LCDIF.D[3]/SPI7.SCK/UART6.RTS_B/I2C7.SCL/FLEXIO1.FLEXIO[7]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "174"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -173.99 0)
+				(length 2.54)
+				(name "GPIO2.IO[6]/TPM5.CH0/PDM.BIT_STREAM[1]/LCDIF.D[2]/SPI7.SOUT/UART6.CTS_B/I2C7.SDA/FLEXIO1.FLEXIO[6]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "176"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -176.53 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "178"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -179.07 0)
+				(length 2.54)
+				(name "DSI_CLK_N/*/LVDS_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "180"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -181.61 0)
+				(length 2.54)
+				(name "DSI_CLK_P/*/LVDS_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "182"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -184.15 0)
+				(length 2.54)
+				(name "DSI_D0_N/*/LVDS_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "184"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -186.69 0)
+				(length 2.54)
+				(name "DSI_D0_P/*/LVDS_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "186"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -189.23 0)
+				(length 2.54)
+				(name "DSI_D1_N/*/LVDS_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "188"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -191.77 0)
+				(length 2.54)
+				(name "DSI_D1_P/*/LVDS_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "190"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -194.31 0)
+				(length 2.54)
+				(name "DSI_D2_N/*/LVDS_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "192"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -196.85 0)
+				(length 2.54)
+				(name "DSI_D2_P/*/LVDS_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "194"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -199.39 0)
+				(length 2.54)
+				(name "I2C2.SCL/I3C1.PUR/UART2.DCB_B/TPM2.CH2/SAI1.RX_SYNC/GPIO1.IO[2]/I3C1.PUR_B/*/HPOUTFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "196"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -201.93 0)
+				(length 2.54)
+				(name "SAI1.RX_DATA[0]/SAI1.MCLK/SPI1.SOUT/UART2.DSR_B/MQS1.RIGHT/GPIO1.IO[14]/*/HPLOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "198"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -127 -204.47 0)
+				(length 2.54)
+				(name "SAI1.TX_BCLK/UART2.CTS_B/SPI1.SIN/UART1.DSR_B/CAN1.RX/GPIO1.IO[12]/*/HPROUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "200"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 52.07 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TX_CTL/UART3.DTR_B///FLEXIO2.FLEXIO[6]/GPIO4.IO[6]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 49.53 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD3//CAN2.TX/USB2.OTG_ID/FLEXIO2.FLEXIO[2]/GPIO4.IO[2]/*/ETH0_MDI_A_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 44.45 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 41.91 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD1/UART3.RTS_B/I3C2.PUR/USB1.OTG_OC/FLEXIO2.FLEXIO[4]/GPIO4.IO[4]/I3C2.PUR_B/*/ETH0_MDI_B_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 39.37 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD0/UART3.TX///FLEXIO2.FLEXIO[5]/GPIO4.IO[5]/*/ETH0_MDI_B_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 36.83 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 34.29 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RX_CTL/UART3.DSR_B//USB2.OTG_PWR/FLEXIO2.FLEXIO[8]/GPIO4.IO[8]/*/ETH0_LED_ACT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 31.75 180)
+				(length 2.54)
+				(name "GPIO2.IO[24]/USDHC3.DATA0//LCDIF.D[20]/TPM3.CH3/DAP.TDO_TRACESWO/SPI6.PCS1/FLEXIO1.FLEXIO[24]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 29.21 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 26.67 180)
+				(length 2.54)
+				(name "GPIO2.IO[20]/SAI3.RX_DATA[0]/PDM.BIT_STREAM[0]/LCDIF.D[16]/SPI5.SOUT/SPI4.SOUT/TPM3.CH1/FLEXIO1.FLEXIO[20]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 24.13 180)
+				(length 2.54)
+				(name "GPIO2.IO[19]/SAI3.RX_SYNC/PDM.BIT_STREAM[3]/LCDIF.D[15]/SPI5.SIN/SPI4.SIN/TPM6.CH2/SAI3.TX_DATA[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 21.59 180)
+				(length 2.54)
+				(name "GPIO2.IO[16]/SAI3.TX_BCLK/PDM.BIT_STREAM[2]/LCDIF.D[12]/UART3.CTS_B/SPI4.PCS2/UART4.CTS_B/FLEXIO1.FLEXIO[16]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 19.05 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 16.51 180)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO1////FLEXIO1.FLEXIO[26]/GPIO3.IO[26]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 13.97 180)
+				(length 2.54)
+				(name "USDHC3.DATA1/FLEXSPI.A_DATA[1]///FLEXIO1.FLEXIO[23]/GPIO3.IO[23]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 11.43 180)
+				(length 2.54)
+				(name "USDHC3.DATA2/FLEXSPI.A_DATA[2]///FLEXIO1.FLEXIO[24]/GPIO3.IO[24]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 8.89 180)
+				(length 2.54)
+				(name "USDHC3.DATA3/FLEXSPI.A_DATA[3]///FLEXIO1.FLEXIO[25]/GPIO3.IO[25]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 6.35 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 3.81 180)
+				(length 2.54)
+				(name "GPIO2.IO[0]/I2C3.SDA/ISI.PCLK/LCDIF.PCLK/SPI6.PCS0/UART5.TX/I2C5.SDA/FLEXIO1.FLEXIO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -3.81 180)
+				(length 2.54)
+				(name "GPIO2.IO[1]/I2C3.SCL/ISI.D[0]/LCDIF.DE/SPI6.SIN/UART5.RX/I2C5.SCL/FLEXIO1.FLEXIO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -6.35 180)
+				(length 2.54)
+				(name "GPIO2.IO[3]/I2C4.SCL/ISI.LINE_VALID/LCDIF.HSYNC/SPI6.SCK/UART5.RTS_B/I2C6.SCL/FLEXIO1.FLEXIO[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -8.89 180)
+				(length 2.54)
+				(name "GPIO2.IO[2]/I2C4.SDA/ISI.FRAME_VALID/LCDIF.VSYNC/SPI6.SOUT/UART5.CTS_B/I2C6.SDA/FLEXIO1.FLEXIO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -11.43 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -13.97 180)
+				(length 2.54)
+				(name "SOM_3V3_PER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -16.51 180)
+				(length 2.54)
+				(name "DAP.TCLK_SWCLK////FLEXIO1.FLEXIO[30]/GPIO3.IO[30]/UART5.CTS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -19.05 180)
+				(length 2.54)
+				(name "DAP.TDI/MQS2.LEFT//CAN2.TX/FLEXIO2.FLEXIO[30]/GPIO3.IO[28]/UART5.RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -21.59 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD3//SAI2.RX_DATA[0]//FLEXIO2.FLEXIO[16]/GPIO4.IO[16]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -24.13 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RXC/ENET2.RX_ER/SAI2.TX_DATA[1]//FLEXIO2.FLEXIO[23]/GPIO4.IO[23]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -26.67 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -29.21 180)
+				(length 2.54)
+				(name "USDHC2.DATA2/ENET2.1588_EVENT1_OUT/MQS2.RIGHT//FLEXIO1.FLEXIO[5]/GPIO3.IO[5]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -31.75 180)
+				(length 2.54)
+				(name "USDHC2.DATA1/ENET2.1588_EVENT1_IN/CAN2.RX//FLEXIO1.FLEXIO[4]/GPIO3.IO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -34.29 180)
+				(length 2.54)
+				(name "USDHC2.DATA3/LPTMR2.ALT1/MQS2.LEFT//FLEXIO1.FLEXIO[6]/GPIO3.IO[6]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -36.83 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -39.37 180)
+				(length 2.54)
+				(name "GPIO2.IO[27]/USDHC3.DATA3/CAN2.RX/LCDIF.D[23]/TPM6.CH3/DAP.TMS_SWDIO/SPI5.PCS1/FLEXIO1.FLEXIO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -41.91 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RD2/UART4.CTS_B/SAI2.MCLK/MQS2.RIGHT/FLEXIO2.FLEXIO[26]/GPIO4.IO[26]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -44.45 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD0/UART4.TX/SAI2.RX_DATA[3]//FLEXIO2.FLEXIO[19]/GPIO4.IO[19]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -46.99 180)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO3////FLEXIO2.FLEXIO[28]/GPIO4.IO[28]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -49.53 180)
+				(length 2.54)
+				(name "GPIO2.IO[11]/SPI3.SCK/ISI.D[5]/LCDIF.D[7]/TPM5.EXTCLK/UART7.RTS_B/I2C8.SCL/FLEXIO1.FLEXIO[11]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -52.07 180)
+				(length 2.54)
+				(name "USDHC1.STROBE/FLEXSPI.A_DQS///FLEXIO1.FLEXIO[18]/GPIO3.IO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -54.61 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RD1/SPDIF1.IN/SAI2.TX_DATA[3]//FLEXIO2.FLEXIO[25]/GPIO4.IO[25]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -57.15 180)
+				(length 2.54)
+				(name "UART1.RX/SECO.RX/SPI2.SIN/TPM1.CH0//GPIO1.IO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -59.69 180)
+				(length 2.54)
+				(name "UART1.TX/SECO.TX/SPI2.PCS0/TPM1.CH1//GPIO1.IO[5]/CCMSRCGPCMIX.BOOT_MODE[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -62.23 180)
+				(length 2.54)
+				(name "GPIO2.IO[22]/USDHC3.CLK/SPDIF1.IN/LCDIF.D[18]/TPM5.CH1/TPM6.EXTCLK/I2C5.SDA/FLEXIO1.FLEXIO[22]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -64.77 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -67.31 180)
+				(length 2.54)
+				(name "BT_PCM_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -69.85 180)
+				(length 2.54)
+				(name "BT_PCM_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -72.39 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -74.93 180)
+				(length 2.54)
+				(name "BT_PCM_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -77.47 180)
+				(length 2.54)
+				(name "BT_PCM_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -80.01 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -82.55 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -85.09 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -87.63 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -90.17 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -92.71 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -95.25 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TX_CTL/UART4.DTR_B/SAI2.TX_SYNC//FLEXIO2.FLEXIO[20]/GPIO4.IO[20]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -97.79 180)
+				(length 2.54)
+				(name "GPIO2.IO[5]/TPM4.CH0/PDM.BIT_STREAM[0]/LCDIF.D[1]/SPI7.SIN/UART6.RX/I2C6.SCL/FLEXIO1.FLEXIO[5]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -100.33 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -102.87 180)
+				(length 2.54)
+				(name "CSI_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -105.41 180)
+				(length 2.54)
+				(name "CSI_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -107.95 180)
+				(length 2.54)
+				(name "CSI_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -110.49 180)
+				(length 2.54)
+				(name "CSI_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -113.03 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -115.57 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -118.11 180)
+				(length 2.54)
+				(name "WDOG1.WDOG_ANY/////GPIO1.IO[15]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -120.65 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -123.19 180)
+				(length 2.54)
+				(name "CSI_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -125.73 180)
+				(length 2.54)
+				(name "CSI_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -128.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -130.81 180)
+				(length 2.54)
+				(name "ETH_INT_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -133.35 180)
+				(length 2.54)
+				(name "BBSMMIX.ONOFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -135.89 180)
+				(length 2.54)
+				(name "USDHC3.CLK/FLEXSPI.A_SCLK///FLEXIO1.FLEXIO[20]/GPIO3.IO[20]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "145"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -138.43 180)
+				(length 2.54)
+				(name "USDHC3.CMD/FLEXSPI.A_SS0_B///FLEXIO1.FLEXIO[21]/GPIO3.IO[21]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "147"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -140.97 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "149"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -143.51 180)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "151"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -146.05 180)
+				(length 2.54)
+				(name "ANAMIX.CLKIN2/ANAMIX.ATX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "153"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -148.59 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -151.13 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "157"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -153.67 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "159"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -156.21 180)
+				(length 2.54)
+				(name "LVDS_TX0_N/*/DSI_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "161"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -158.75 180)
+				(length 2.54)
+				(name "LVDS_TX0_P/*/DSI_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "163"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -161.29 180)
+				(length 2.54)
+				(name "LVDS_TX3_N/*/DSI_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "165"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -163.83 180)
+				(length 2.54)
+				(name "LVDS_TX3_P/*/DSI_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "167"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -166.37 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "169"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -168.91 180)
+				(length 2.54)
+				(name "GPIO2.IO[4]/TPM3.CH0/PDM.CLK/LCDIF.D[0]/SPI7.PCS0/UART6.TX/I2C6.SDA/FLEXIO1.FLEXIO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "171"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -171.45 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "173"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -173.99 180)
+				(length 2.54)
+				(name "GPIO2.IO[9]/SPI3.SIN/ISI.D[3]/LCDIF.D[5]/TPM3.EXTCLK/UART7.RX/I2C7.SCL/FLEXIO1.FLEXIO[9]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "175"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -176.53 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD1/UART4.RTS_B/SAI2.RX_DATA[2]//FLEXIO2.FLEXIO[18]/GPIO4.IO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "177"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -179.07 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "179"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -181.61 180)
+				(length 2.54)
+				(name "DSI_D3_P/*/LVDS_TX3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "181"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -184.15 180)
+				(length 2.54)
+				(name "DSI_D3_N/*/LVDS_TX3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "183"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -186.69 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "185"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -189.23 180)
+				(length 2.54)
+				(name "GPIO2.IO[14]/UART3.TX/ISI.D[6]/LCDIF.D[10]/SPI8.SOUT/UART8.CTS_B/UART4.TX/FLEXIO1.FLEXIO[14]/*/TS_X-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "187"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -191.77 180)
+				(length 2.54)
+				(name "GPIO2.IO[15]/UART3.RX/ISI.D[7]/LCDIF.D[11]/SPI8.SCK/UART8.RTS_B/UART4.RX/FLEXIO1.FLEXIO[15]/*/TS_X+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "189"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -194.31 180)
+				(length 2.54)
+				(name "GPIO2.IO[12]/TPM3.CH2/PDM.BIT_STREAM[2]/LCDIF.D[8]/SPI8.PCS0/UART8.TX/I2C8.SDA/SAI3.RX_SYNC/*/TS_Y+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "191"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -196.85 180)
+				(length 2.54)
+				(name "GPIO2.IO[13]/TPM4.CH2/PDM.BIT_STREAM[3]/LCDIF.D[9]/SPI8.SIN/UART8.RX/I2C8.SCL/FLEXIO1.FLEXIO[13]/*/TS_Y-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "193"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -199.39 180)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "195"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -201.93 180)
+				(length 2.54)
+				(name "I2C2.SDA//UART2.RIN_B/TPM2.CH3/SAI1.RX_BCLK/GPIO1.IO[3]/*/LINEIN1_LP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "197"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 127 -204.47 180)
+				(length 2.54)
+				(name "SAI1.TX_SYNC/SAI1.TX_DATA[1]/SPI1.PCS0/UART2.DTR_B/MQS1.LEFT/GPIO1.IO[11]/CCMSRCGPCMIX.BOOT_MODE[2]/*/LINEIN1_RP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "199"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_0_1"
+			(polyline
+				(pts
+					(xy -124.46 53.34) (xy -124.46 1.27) (xy -120.65 1.27) (xy -120.65 -1.27) (xy -124.46 -1.27) (xy -124.46 -205.74)
+					(xy 124.46 -205.74) (xy 124.46 -1.27) (xy 120.65 -1.27) (xy 120.65 1.27) (xy 124.46 1.27) (xy 124.46 53.34)
+					(xy -124.46 53.34)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "var-som-mx93_1_0"
+			(pin unspecified line
+				(at 127 46.99 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD2/INPUT=ENET_QOS.TX_CLK_OUTPUT=CCMSRCGPCMIX.ENET_CLK_ROOT/CAN2.RX/USB2.OTG_OC/FLEXIO2.FLEXIO[3]/GPIO4.IO[3]/*/ETH0_MDI_A_M"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_1_1"
+			(pin unspecified line
+				(at -20.32 -208.28 90)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "201"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -16.51 -208.28 90)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "202"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -208.28 90)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "203"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -208.28 90)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "204"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "var-som-mx93_split-funcs"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VAR-SOM-MX93"
+			(at 0.254 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN200_1827341-4_TEC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_1_0"
+			(pin unspecified line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -12.7 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -17.78 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -20.32 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -22.86 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -25.4 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -27.94 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -30.48 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -33.02 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -35.56 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -38.1 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -40.64 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -43.18 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -45.72 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -48.26 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -50.8 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -53.34 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -55.88 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -58.42 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -60.96 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -63.5 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -66.04 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -68.58 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "149"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -71.12 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "158"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -73.66 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "159"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -76.2 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "169"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -78.74 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "172"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -81.28 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "178"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -83.82 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "179"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -86.36 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "185"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -92.71 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "195"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -10.16 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -12.7 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -15.24 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -17.78 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -20.32 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -22.86 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -31.75 180)
+				(length 2.54)
+				(name "SOM_3V3_PER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -39.37 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -41.91 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -44.45 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -46.99 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -49.53 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -52.07 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -54.61 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -57.15 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -59.69 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -62.23 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -64.77 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -67.31 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "157"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -69.85 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "173"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_1_1"
+			(rectangle
+				(start -12.7 -2.54)
+				(end 11.43 -95.25)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "POWER"
+				(at -0.254 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -76.2 180)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "201"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -78.74 180)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "202"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -81.28 180)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "203"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -83.82 180)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "204"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_2_0"
+			(pin unspecified line
+				(at -2.54 -6.35 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "146"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -8.89 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "148"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -11.43 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "150"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -13.97 0)
+				(length 2.54)
+				(name "ANAMIX.ADC_IN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "151"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -16.51 0)
+				(length 2.54)
+				(name "ANAMIX.CLKIN1/ANAMIX.ESD_DIODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "152"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -19.05 0)
+				(length 2.54)
+				(name "ANAMIX.CLKIN2/ANAMIX.ATX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "153"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_2_1"
+			(rectangle
+				(start 0 -3.81)
+				(end 36.83 -21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "ADC"
+				(at 27.94 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_3_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "BOOT_SEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "SYS_NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "WIFI_HOST_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "WDOG1.WDOG_ANY/////GPIO1.IO[15]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "PMIC_NINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "BBSMMIX.PMIC_STBY_REQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "BBSMMIX.PMIC_ON_REQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "BBSMMIX.ONOFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
+				(length 2.54)
+				(name "BBSMMIX.TAMPER0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "154"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "BBSMMIX.TAMPER1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "156"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_3_1"
+			(rectangle
+				(start 0 -2.54)
+				(end 38.1 -43.18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "MISC"
+				(at 28.702 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_4_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "BT_PCM_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "BT_PCM_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "BT_PCM_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "BT_PCM_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "BT_DEV_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "BT_HOST_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_4_1"
+			(rectangle
+				(start 0 -2.54)
+				(end 21.59 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BT"
+				(at 18.288 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_5_0"
+			(pin unspecified line
+				(at -30.48 -3.81 0)
+				(length 2.54)
+				(name "LVDS_CLK_N/*/DSI_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "168"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -6.35 0)
+				(length 2.54)
+				(name "LVDS_CLK_P/*/DSI_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "170"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -8.89 0)
+				(length 2.54)
+				(name "LVDS_TX0_N/*/DSI_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "161"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -11.43 0)
+				(length 2.54)
+				(name "LVDS_TX0_P/*/DSI_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "163"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -13.97 0)
+				(length 2.54)
+				(name "LVDS_TX1_N/*/DSI_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -16.51 0)
+				(length 2.54)
+				(name "LVDS_TX1_P/*/DSI_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "162"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -19.05 0)
+				(length 2.54)
+				(name "LVDS_TX2_N/*/DSI_D2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "164"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -21.59 0)
+				(length 2.54)
+				(name "LVDS_TX2_P/*/DSI_D2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "166"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -24.13 0)
+				(length 2.54)
+				(name "LVDS_TX3_N/*/DSI_D3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "165"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -26.67 0)
+				(length 2.54)
+				(name "LVDS_TX3_P/*/DSI_D3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "167"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -33.02 0)
+				(length 2.54)
+				(name "DSI_CLK_N/*/LVDS_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "180"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -35.56 0)
+				(length 2.54)
+				(name "DSI_CLK_P/*/LVDS_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "182"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -38.1 0)
+				(length 2.54)
+				(name "DSI_D0_N/*/LVDS_TX0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "184"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -40.64 0)
+				(length 2.54)
+				(name "DSI_D0_P/*/LVDS_TX0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "186"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -43.18 0)
+				(length 2.54)
+				(name "DSI_D1_N/*/LVDS_TX1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "188"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -45.72 0)
+				(length 2.54)
+				(name "DSI_D1_P/*/LVDS_TX1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "190"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -48.26 0)
+				(length 2.54)
+				(name "DSI_D2_N/*/LVDS_TX2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "192"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -50.8 0)
+				(length 2.54)
+				(name "DSI_D2_P/*/LVDS_TX2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "194"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -53.34 0)
+				(length 2.54)
+				(name "DSI_D3_P/*/LVDS_TX3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "181"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -30.48 -55.88 0)
+				(length 2.54)
+				(name "DSI_D3_N/*/LVDS_TX3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "183"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -22.86 180)
+				(length 2.54)
+				(name "CSI_D0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -25.4 180)
+				(length 2.54)
+				(name "CSI_D0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -27.94 180)
+				(length 2.54)
+				(name "CSI_D1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -30.48 180)
+				(length 2.54)
+				(name "CSI_D1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -33.02 180)
+				(length 2.54)
+				(name "CSI_CLK_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -35.56 180)
+				(length 2.54)
+				(name "CSI_CLK_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_5_1"
+			(rectangle
+				(start -27.94 -1.27)
+				(end 12.7 -60.96)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "LVDS\nDSI\nCSI"
+				(at 6.858 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_6_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "USB1_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "USB1_DN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "USB1_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "USB1_VBUS_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "USB2_DN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "USB2_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "USB2_VBUS_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_6_1"
+			(rectangle
+				(start 0 -2.54)
+				(end 21.59 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "USB"
+				(at 16.764 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_7_0"
+			(pin unspecified line
+				(at -123.19 -5.08 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD0/UART3.RX///FLEXIO2.FLEXIO[10]/GPIO4.IO[10]/*/ETH0_MDI_C_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -7.62 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD1/UART3.CTS_B//LPTMR2.ALT1/FLEXIO2.FLEXIO[11]/GPIO4.IO[11]/*/ETH0_MDI_C_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -10.16 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD2///LPTMR2.ALT2/FLEXIO2.FLEXIO[12]/GPIO4.IO[12]/*/ETH0_MDI_D_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -12.7 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RD3///LPTMR2.ALT3/FLEXIO2.FLEXIO[13]/GPIO4.IO[13]/*/ETH0_MDI_D_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -15.24 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RXC/ENET_QOS.RX_ER///FLEXIO2.FLEXIO[9]/GPIO4.IO[9]/*/ETH0_LED_LINK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -17.78 0)
+				(length 2.54)
+				(name "SAI1.TX_DATA[0]/UART2.RTS_B/SPI1.SCK/UART1.DTR_B/CAN1.TX/GPIO1.IO[13]/CCMSRCGPCMIX.BOOT_MODE[3]/*/DMIC_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -20.32 0)
+				(length 2.54)
+				(name "UART2.RX/UART1.CTS_B/SPI2.SOUT/TPM1.CH2/SAI1.MCLK/GPIO1.IO[6]/*/DMIC_DATA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -22.86 0)
+				(length 2.54)
+				(name "GPIO2.IO[18]/SAI3.RX_BCLK/ISI.D[9]/LCDIF.D[14]/SPI5.PCS0/SPI4.PCS0/TPM5.CH2/FLEXIO1.FLEXIO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -25.4 0)
+				(length 2.54)
+				(name "GPIO2.IO[26]/USDHC3.DATA2/PDM.BIT_STREAM[1]/LCDIF.D[22]/TPM5.CH3/DAP.TDI/SPI8.PCS1/SAI3.TX_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -27.94 0)
+				(length 2.54)
+				(name "GPIO2.IO[21]/SAI3.TX_DATA[0]/PDM.CLK/LCDIF.D[17]/SPI5.SCK/SPI4.SCK/TPM4.CH1/SAI3.RX_BCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -30.48 0)
+				(length 2.54)
+				(name "ENET_QOS.MDIO/UART3.RIN_B/I3C2.SDA/USB1.OTG_PWR/FLEXIO2.FLEXIO[1]/GPIO4.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -33.02 0)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO2////FLEXIO1.FLEXIO[27]/GPIO3.IO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -35.56 0)
+				(length 2.54)
+				(name "PDM.CLK/MQS1.LEFT///LPTMR1.ALT1/GPIO1.IO[8]/CAN1.TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -38.1 0)
+				(length 2.54)
+				(name "PDM.BIT_STREAM[0]/MQS1.RIGHT/SPI1.PCS1/TPM1.EXTCLK/LPTMR1.ALT2/GPIO1.IO[9]/CAN1.RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -40.64 0)
+				(length 2.54)
+				(name "GPIO2.IO[10]/SPI3.SOUT/ISI.D[4]/LCDIF.D[6]/TPM4.EXTCLK/UART7.CTS_B/I2C8.SDA/FLEXIO1.FLEXIO[10]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -43.18 0)
+				(length 2.54)
+				(name "DAP.TMS_SWDIO////FLEXIO2.FLEXIO[31]/GPIO3.IO[29]/UART5.RTS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -45.72 0)
+				(length 2.54)
+				(name "DAP.TDO_TRACESWO/MQS2.RIGHT//CAN2.RX/FLEXIO1.FLEXIO[31]/GPIO3.IO[31]/UART5.TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -48.26 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RD3/SPDIF1.OUT/SPDIF1.IN/MQS2.LEFT/FLEXIO2.FLEXIO[27]/GPIO4.IO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -50.8 0)
+				(length 2.54)
+				(name "ENET2.RGMII_TD2/INPUT=ENET2.TX_CLK_OUTPUT=CCMSRCGPCMIX.ENET_REF_CLK_ROOT/SAI2.RX_DATA[1]//FLEXIO2.FLEXIO[17]/GPIO4.IO[17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -53.34 0)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TXC/ENET_QOS.TX_ER///FLEXIO2.FLEXIO[7]/GPIO4.IO[7]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -55.88 0)
+				(length 2.54)
+				(name "USDHC2.CLK/ENET_QOS.1588_EVENT0_OUT/I3C2.SDA//FLEXIO1.FLEXIO[1]/GPIO3.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -58.42 0)
+				(length 2.54)
+				(name "USDHC2.DATA0/ENET2.1588_EVENT0_OUT/CAN2.TX//FLEXIO1.FLEXIO[3]/GPIO3.IO[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -60.96 0)
+				(length 2.54)
+				(name "USDHC2.CMD/ENET2.1588_EVENT0_IN/I3C2.PUR/I3C2.PUR_B/FLEXIO1.FLEXIO[2]/GPIO3.IO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -63.5 0)
+				(length 2.54)
+				(name "GPIO2.IO[25]/USDHC3.DATA1/CAN2.TX/LCDIF.D[21]/TPM4.CH3/DAP.TCLK_SWCLK/SPI7.PCS1/FLEXIO1.FLEXIO[25]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -66.04 0)
+				(length 2.54)
+				(name "PDM.BIT_STREAM[1]/M33.NMI/SPI2.PCS1/TPM2.EXTCLK/LPTMR1.ALT3/GPIO1.IO[10]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -68.58 0)
+				(length 2.54)
+				(name "ENET_QOS.MDC/UART3.DCB_B/I3C2.SCL/USB1.OTG_ID/FLEXIO2.FLEXIO[0]/GPIO4.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -71.12 0)
+				(length 2.54)
+				(name "USDHC2.CD_B/ENET_QOS.1588_EVENT0_IN/I3C2.SCL//FLEXIO1.FLEXIO[0]/GPIO3.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -73.66 0)
+				(length 2.54)
+				(name "USDHC3.DATA0/FLEXSPI.A_DATA[0]///FLEXIO1.FLEXIO[22]/GPIO3.IO[22]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -76.2 0)
+				(length 2.54)
+				(name "GPIO2.IO[17]/SAI3.MCLK/ISI.D[8]/LCDIF.D[13]/UART3.RTS_B/SPI4.PCS1/UART4.RTS_B/FLEXIO1.FLEXIO[17]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -78.74 0)
+				(length 2.54)
+				(name "GPIO2.IO[23]/USDHC3.CMD/SPDIF1.OUT/LCDIF.D[19]/TPM6.CH1//I2C5.SCL/FLEXIO1.FLEXIO[23]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -81.28 0)
+				(length 2.54)
+				(name "I2C1.SDA/I3C1.SDA/UART1.RIN_B/TPM2.CH1//GPIO1.IO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -83.82 0)
+				(length 2.54)
+				(name "I2C1.SCL/I3C1.SCL/UART1.DCB_B/TPM2.CH0//GPIO1.IO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -86.36 0)
+				(length 2.54)
+				(name "ENET2.RGMII_TXC/ENET2.TX_ER/SAI2.TX_BCLK//FLEXIO2.FLEXIO[21]/GPIO4.IO[21]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -88.9 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RX_CTL/UART4.DSR_B/SAI2.TX_DATA[0]//FLEXIO2.FLEXIO[22]/GPIO4.IO[22]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -91.44 0)
+				(length 2.54)
+				(name "ENET2.RGMII_RD0/UART4.RX/SAI2.TX_DATA[2]//FLEXIO2.FLEXIO[24]/GPIO4.IO[24]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -93.98 0)
+				(length 2.54)
+				(name "GPIO2.IO[8]/SPI3.PCS0/ISI.D[2]/LCDIF.D[4]/TPM6.CH0/UART7.TX/I2C7.SDA/FLEXIO1.FLEXIO[8]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -96.52 0)
+				(length 2.54)
+				(name "GPIO2.IO[7]/SPI3.PCS1/ISI.D[1]/LCDIF.D[3]/SPI7.SCK/UART6.RTS_B/I2C7.SCL/FLEXIO1.FLEXIO[7]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "174"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -99.06 0)
+				(length 2.54)
+				(name "GPIO2.IO[6]/TPM5.CH0/PDM.BIT_STREAM[1]/LCDIF.D[2]/SPI7.SOUT/UART6.CTS_B/I2C7.SDA/FLEXIO1.FLEXIO[6]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "176"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -101.6 0)
+				(length 2.54)
+				(name "I2C2.SCL/I3C1.PUR/UART2.DCB_B/TPM2.CH2/SAI1.RX_SYNC/GPIO1.IO[2]/I3C1.PUR_B/*/HPOUTFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "196"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -104.14 0)
+				(length 2.54)
+				(name "SAI1.RX_DATA[0]/SAI1.MCLK/SPI1.SOUT/UART2.DSR_B/MQS1.RIGHT/GPIO1.IO[14]/*/HPLOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "198"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -123.19 -106.68 0)
+				(length 2.54)
+				(name "SAI1.TX_BCLK/UART2.CTS_B/SPI1.SIN/UART1.DSR_B/CAN1.RX/GPIO1.IO[12]/*/HPROUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "200"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -2.54 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TX_CTL/UART3.DTR_B///FLEXIO2.FLEXIO[6]/GPIO4.IO[6]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -5.08 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD3//CAN2.TX/USB2.OTG_ID/FLEXIO2.FLEXIO[2]/GPIO4.IO[2]/*/ETH0_MDI_A_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -7.62 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD2/INPUT=ENET_QOS.TX_CLK_OUTPUT=CCMSRCGPCMIX.ENET_CLK_ROOT/CAN2.RX/USB2.OTG_OC/FLEXIO2.FLEXIO[3]/GPIO4.IO[3]/*/ETH0_MDI_A_M"
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -10.16 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD1/UART3.RTS_B/I3C2.PUR/USB1.OTG_OC/FLEXIO2.FLEXIO[4]/GPIO4.IO[4]/I3C2.PUR_B/*/ETH0_MDI_B_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -12.7 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_TD0/UART3.TX///FLEXIO2.FLEXIO[5]/GPIO4.IO[5]/*/ETH0_MDI_B_M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -15.24 180)
+				(length 2.54)
+				(name "ENET_QOS.RGMII_RX_CTL/UART3.DSR_B//USB2.OTG_PWR/FLEXIO2.FLEXIO[8]/GPIO4.IO[8]/*/ETH0_LED_ACT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -17.78 180)
+				(length 2.54)
+				(name "GPIO2.IO[24]/USDHC3.DATA0//LCDIF.D[20]/TPM3.CH3/DAP.TDO_TRACESWO/SPI6.PCS1/FLEXIO1.FLEXIO[24]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -20.32 180)
+				(length 2.54)
+				(name "GPIO2.IO[20]/SAI3.RX_DATA[0]/PDM.BIT_STREAM[0]/LCDIF.D[16]/SPI5.SOUT/SPI4.SOUT/TPM3.CH1/FLEXIO1.FLEXIO[20]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -22.86 180)
+				(length 2.54)
+				(name "GPIO2.IO[19]/SAI3.RX_SYNC/PDM.BIT_STREAM[3]/LCDIF.D[15]/SPI5.SIN/SPI4.SIN/TPM6.CH2/SAI3.TX_DATA[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -25.4 180)
+				(length 2.54)
+				(name "GPIO2.IO[16]/SAI3.TX_BCLK/PDM.BIT_STREAM[2]/LCDIF.D[12]/UART3.CTS_B/SPI4.PCS2/UART4.CTS_B/FLEXIO1.FLEXIO[16]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -27.94 180)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO1////FLEXIO1.FLEXIO[26]/GPIO3.IO[26]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -30.48 180)
+				(length 2.54)
+				(name "USDHC3.DATA1/FLEXSPI.A_DATA[1]///FLEXIO1.FLEXIO[23]/GPIO3.IO[23]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -33.02 180)
+				(length 2.54)
+				(name "USDHC3.DATA2/FLEXSPI.A_DATA[2]///FLEXIO1.FLEXIO[24]/GPIO3.IO[24]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -35.56 180)
+				(length 2.54)
+				(name "USDHC3.DATA3/FLEXSPI.A_DATA[3]///FLEXIO1.FLEXIO[25]/GPIO3.IO[25]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -38.1 180)
+				(length 2.54)
+				(name "GPIO2.IO[0]/I2C3.SDA/ISI.PCLK/LCDIF.PCLK/SPI6.PCS0/UART5.TX/I2C5.SDA/FLEXIO1.FLEXIO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -40.64 180)
+				(length 2.54)
+				(name "GPIO2.IO[1]/I2C3.SCL/ISI.D[0]/LCDIF.DE/SPI6.SIN/UART5.RX/I2C5.SCL/FLEXIO1.FLEXIO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -43.18 180)
+				(length 2.54)
+				(name "GPIO2.IO[3]/I2C4.SCL/ISI.LINE_VALID/LCDIF.HSYNC/SPI6.SCK/UART5.RTS_B/I2C6.SCL/FLEXIO1.FLEXIO[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -45.72 180)
+				(length 2.54)
+				(name "GPIO2.IO[2]/I2C4.SDA/ISI.FRAME_VALID/LCDIF.VSYNC/SPI6.SOUT/UART5.CTS_B/I2C6.SDA/FLEXIO1.FLEXIO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -48.26 180)
+				(length 2.54)
+				(name "DAP.TCLK_SWCLK////FLEXIO1.FLEXIO[30]/GPIO3.IO[30]/UART5.CTS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -50.8 180)
+				(length 2.54)
+				(name "DAP.TDI/MQS2.LEFT//CAN2.TX/FLEXIO2.FLEXIO[30]/GPIO3.IO[28]/UART5.RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -53.34 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD3//SAI2.RX_DATA[0]//FLEXIO2.FLEXIO[16]/GPIO4.IO[16]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -55.88 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RXC/ENET2.RX_ER/SAI2.TX_DATA[1]//FLEXIO2.FLEXIO[23]/GPIO4.IO[23]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -58.42 180)
+				(length 2.54)
+				(name "USDHC2.DATA2/ENET2.1588_EVENT1_OUT/MQS2.RIGHT//FLEXIO1.FLEXIO[5]/GPIO3.IO[5]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -60.96 180)
+				(length 2.54)
+				(name "USDHC2.DATA1/ENET2.1588_EVENT1_IN/CAN2.RX//FLEXIO1.FLEXIO[4]/GPIO3.IO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -63.5 180)
+				(length 2.54)
+				(name "USDHC2.DATA3/LPTMR2.ALT1/MQS2.LEFT//FLEXIO1.FLEXIO[6]/GPIO3.IO[6]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -66.04 180)
+				(length 2.54)
+				(name "GPIO2.IO[27]/USDHC3.DATA3/CAN2.RX/LCDIF.D[23]/TPM6.CH3/DAP.TMS_SWDIO/SPI5.PCS1/FLEXIO1.FLEXIO[27]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -68.58 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RD2/UART4.CTS_B/SAI2.MCLK/MQS2.RIGHT/FLEXIO2.FLEXIO[26]/GPIO4.IO[26]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -71.12 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD0/UART4.TX/SAI2.RX_DATA[3]//FLEXIO2.FLEXIO[19]/GPIO4.IO[19]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -73.66 180)
+				(length 2.54)
+				(name "CCMSRCGPCMIX.CLKO3////FLEXIO2.FLEXIO[28]/GPIO4.IO[28]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -76.2 180)
+				(length 2.54)
+				(name "GPIO2.IO[11]/SPI3.SCK/ISI.D[5]/LCDIF.D[7]/TPM5.EXTCLK/UART7.RTS_B/I2C8.SCL/FLEXIO1.FLEXIO[11]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -78.74 180)
+				(length 2.54)
+				(name "USDHC1.STROBE/FLEXSPI.A_DQS///FLEXIO1.FLEXIO[18]/GPIO3.IO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -81.28 180)
+				(length 2.54)
+				(name "ENET2.RGMII_RD1/SPDIF1.IN/SAI2.TX_DATA[3]//FLEXIO2.FLEXIO[25]/GPIO4.IO[25]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -83.82 180)
+				(length 2.54)
+				(name "UART1.RX/SECO.RX/SPI2.SIN/TPM1.CH0//GPIO1.IO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -86.36 180)
+				(length 2.54)
+				(name "UART1.TX/SECO.TX/SPI2.PCS0/TPM1.CH1//GPIO1.IO[5]/CCMSRCGPCMIX.BOOT_MODE[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -88.9 180)
+				(length 2.54)
+				(name "GPIO2.IO[22]/USDHC3.CLK/SPDIF1.IN/LCDIF.D[18]/TPM5.CH1/TPM6.EXTCLK/I2C5.SDA/FLEXIO1.FLEXIO[22]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -91.44 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TX_CTL/UART4.DTR_B/SAI2.TX_SYNC//FLEXIO2.FLEXIO[20]/GPIO4.IO[20]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -93.98 180)
+				(length 2.54)
+				(name "GPIO2.IO[5]/TPM4.CH0/PDM.BIT_STREAM[0]/LCDIF.D[1]/SPI7.SIN/UART6.RX/I2C6.SCL/FLEXIO1.FLEXIO[5]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -96.52 180)
+				(length 2.54)
+				(name "ETH_INT_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -99.06 180)
+				(length 2.54)
+				(name "USDHC3.CLK/FLEXSPI.A_SCLK///FLEXIO1.FLEXIO[20]/GPIO3.IO[20]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "145"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -101.6 180)
+				(length 2.54)
+				(name "USDHC3.CMD/FLEXSPI.A_SS0_B///FLEXIO1.FLEXIO[21]/GPIO3.IO[21]/*/NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "147"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -104.14 180)
+				(length 2.54)
+				(name "GPIO2.IO[4]/TPM3.CH0/PDM.CLK/LCDIF.D[0]/SPI7.PCS0/UART6.TX/I2C6.SDA/FLEXIO1.FLEXIO[4]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "171"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -106.68 180)
+				(length 2.54)
+				(name "GPIO2.IO[9]/SPI3.SIN/ISI.D[3]/LCDIF.D[5]/TPM3.EXTCLK/UART7.RX/I2C7.SCL/FLEXIO1.FLEXIO[9]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "175"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -109.22 180)
+				(length 2.54)
+				(name "ENET2.RGMII_TD1/UART4.RTS_B/SAI2.RX_DATA[2]//FLEXIO2.FLEXIO[18]/GPIO4.IO[18]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "177"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -111.76 180)
+				(length 2.54)
+				(name "GPIO2.IO[14]/UART3.TX/ISI.D[6]/LCDIF.D[10]/SPI8.SOUT/UART8.CTS_B/UART4.TX/FLEXIO1.FLEXIO[14]/*/TS_X-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "187"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -114.3 180)
+				(length 2.54)
+				(name "GPIO2.IO[15]/UART3.RX/ISI.D[7]/LCDIF.D[11]/SPI8.SCK/UART8.RTS_B/UART4.RX/FLEXIO1.FLEXIO[15]/*/TS_X+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "189"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -116.84 180)
+				(length 2.54)
+				(name "GPIO2.IO[12]/TPM3.CH2/PDM.BIT_STREAM[2]/LCDIF.D[8]/SPI8.PCS0/UART8.TX/I2C8.SDA/SAI3.RX_SYNC/*/TS_Y+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "191"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -119.38 180)
+				(length 2.54)
+				(name "GPIO2.IO[13]/TPM4.CH2/PDM.BIT_STREAM[3]/LCDIF.D[9]/SPI8.SIN/UART8.RX/I2C8.SCL/FLEXIO1.FLEXIO[13]/*/TS_Y-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "193"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -121.92 180)
+				(length 2.54)
+				(name "I2C2.SDA//UART2.RIN_B/TPM2.CH3/SAI1.RX_BCLK/GPIO1.IO[3]/*/LINEIN1_LP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "197"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 130.81 -124.46 180)
+				(length 2.54)
+				(name "SAI1.TX_SYNC/SAI1.TX_DATA[1]/SPI1.PCS0/UART2.DTR_B/MQS1.LEFT/GPIO1.IO[11]/CCMSRCGPCMIX.BOOT_MODE[2]/*/LINEIN1_RP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "199"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "var-som-mx93_split-funcs_7_1"
+			(rectangle
+				(start -120.65 0)
+				(end 128.27 -127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "GENERAL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
